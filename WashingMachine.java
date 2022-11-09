@@ -1,20 +1,13 @@
 class WashingMachine{
-	static String brand;
-	static String color;
-	static double price;
-	static boolean isConnected;
-	
-	public static boolean onOrOFF(){
-		System.out.println("inside onOrOFF");
-		if(isConnected == false){
-			isConnected = true;
-			System.out.println("WashingMachine turned Onn....");
-		}
-		if(isConnected == true){
-			isConnected = false;
-			System.out.println("WashingMachine turned OFF....");
-		}
-		System.out.println("Ended of onOrOFF");
-		return isConnected;
-	}
+ public static void main(String san[]){
+ String brand = "Bosch";
+ String colour = "sliver";
+ String capacity = "7 kg";
+ int price = 35000;
+ System.out.println("washing machine brand is " + brand);
+ System.out.println("washing machine colour is " + colour);
+ System.out.println("washing machine capacity is " + capacity);
+ System.out.println("washing machine price is " + price);
 }
+}
+ 
