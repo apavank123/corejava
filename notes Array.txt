@@ -1,0 +1,8 @@
+Array is a container have a group data or similar type of data
+
+This is nonpremitive
+
+
+ int variable = it is premitive
+
+ int variable[]= Nonpremitive
