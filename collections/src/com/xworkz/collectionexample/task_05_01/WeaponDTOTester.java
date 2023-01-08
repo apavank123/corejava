@@ -61,7 +61,7 @@ public class WeaponDTOTester {
 				return e;
 			return "NA";
 		}).collect(Collectors.toList()).forEach(e -> System.out.println(e));
-
+		
 		System.out.println("===============================================================");
 		
 		System.out.println("All weapons by made by and made on....");
@@ -90,7 +90,7 @@ public class WeaponDTOTester {
 		System.out.println("Weapons by price in asc order");
 		Comparator<WeaponDTO> comparator = (a1, a2) -> Double.compare(a1.getPrice(), a2.getPrice());
 		collection.stream().sorted(comparator).forEach(e -> System.out.println(e));
-
+		
 		System.out.println("===============================================================");
 		
 		System.out.println("Weapons by price in desc order....");

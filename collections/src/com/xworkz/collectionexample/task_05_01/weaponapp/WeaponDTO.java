@@ -14,7 +14,7 @@ public class WeaponDTO implements Serializable, Comparable<WeaponDTO> {
 	private Type type;
 
 	public WeaponDTO() {
-		super();
+		
 	}
 
 	public WeaponDTO(String name, String madeBy, LocalDate madeOn, int price, Type type) {
